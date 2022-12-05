@@ -11,8 +11,8 @@ const Legend = () => {
         </div>
         <div className='legend'>
             <p className='description'>
-              PRIVATE SECURITY ADVISOR_<br/>
-              REACT DEVELOPER_
+              PRIVATE SECURITY ADVISOR<br/>
+              REACT DEVELOPER
               skjcbk cbsvbd asd kcbali cbapi apiu caiwcu airc aspicaic ibfhb cjcasjxnsjbcjablacbsl
             </p>
         </div>
