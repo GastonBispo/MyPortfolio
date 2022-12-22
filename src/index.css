@@ -1,3 +1,9 @@
+/*! normalize.css v8.0.1 */
+
+
+/* End Normalize CSS */
+
+
 
 
 *{
@@ -6,13 +12,33 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #0f0012;
-    font-family: 'Fahkwang', 'sans-serif';
-    /* display: flex;
-    flex-direction: row;
-    height: 100vh;
-    width: 100%; */
+:root{
+    /* --bg-color: #4158D0; */
+    --bg-gradient: linear-gradient(99deg, #ff94fb, #ffd7af, #e7bbee, #fff5db);
+    --black: #000000;
+    --primary-shade: #3a3a3a;
+    --text-color-light: #e3e3e3;
+    --primary-color: #c968d3;
+    --secondary-color: #1d1d1d;
+    --primary-font: 'Goodnight London Sans', sans-serif;
+    --secondary-font: 'Nagaiya', sans-serif;
+    --paragraph-font:  'Open Sauce Two', sans-serif;
+    
 }
 
+body{
+    background-color: #0f0012;
+    /* font-family: 'Fahkwang', 'sans-serif'; */
+    
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: var(--secondary-color);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+    border-radius: 5px;
+}
 

@@ -1,13 +1,54 @@
 .bg-nude{
-    background-color: rgb(231, 188, 235);
+    /* background-color: var(--bg-color); */
+    background-image: var(--bg-gradient);
     width: 100%;
     height: 100vh;
-    object-fit: cover;
+    /* object-fit: cover; */
+    background-size: 300% 300%;
     display: flex;
     flex-direction: row;
-    padding-right: 5%;
+    padding: 3%;
     overflow: hidden;
+    justify-content: space-between;
+    animation: color 30s ease infinite;
+    /* backdrop-filter: blur(2000px); */
+    opacity: 9;
+    overflow: hidden;
+    position: relative;
 }
+.bg-nude::before,
+.bg-nude::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100vh;
+  background-color: var(--primary-color);
+  transform: skew(-13deg) scale(2.6);
+  border: 1px solid var(--secondary-color);
+}
+
+.bg-nude::before {
+  left: 16%;
+  top: 0;
+}
+
+.bg-nude::after {
+  left: 14%;
+  bottom: 0;
+}
+
+@keyframes color {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 @media screen and (max-width: 991px){
     .bg-nude{
