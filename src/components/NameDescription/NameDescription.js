@@ -11,7 +11,7 @@ const NameDescription = () => {
         <div className='innerContainer'>
           <Tilt
             // perspective={500}
-            // tiltAngleYInitial={30} 
+            tiltAngleYInitial={20} 
             tiltReverse={true} 
             glareEnable={true} 
             glareMaxOpacity={0.8} 

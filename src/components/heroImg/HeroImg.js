@@ -1,13 +1,13 @@
 import './heroImg.css';
 import React from 'react';
-import NameDescription from '../NameDescription/NameDescription';
-import Nav from '../menu/Nav';
+// import NameDescription from '../NameDescription/NameDescription';
+// import Nav from '../menu/Nav';
 
 const HeroImg = () => {
   return (
     <div className='bg-nude'>
-        <NameDescription/>
-        <Nav/>
+        {/* <NameDescription/>
+        <Nav/> */}
     </div>
   )
 }
