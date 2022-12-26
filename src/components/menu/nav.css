@@ -8,38 +8,38 @@
     align-items: flex-end;
     text-align: center;
     padding-right: 20px;
-    /* position: absolute; */
+    position: relative;
 }
 
 .menu{
     /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: left;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: center;
     
 }
 
 .menu-link{
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 11vw;
-    line-height: 1.1em;
+    font-size: 10vw;
+    /* line-height: 1.1em; */
     /* font-weight: bolder; */
     text-decoration: none;
     text-transform: uppercase;
     /* -webkit-text-stroke: 1px var(--black); */
-    margin: 0 0 0 auto;
+    /* margin: 0 0 0 auto; */
     transition: transform 800ms ease;
-    /* display: flex; */
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    letter-spacing: 10px;
+    letter-spacing: 15px;
 }
 .menu-link:hover {
     font-style: italic;
     transform: translate(6px);
     transition: 1000ms ease;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     /* text-shadow: 1px 2px 2px var(--secondary-color); */
 }
 

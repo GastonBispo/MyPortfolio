@@ -1,40 +1,19 @@
-.bg-nude{
-    /* background-color: var(--bg-color); */
+/* .bg-nude{
+    background-color: var(--bg-color);c
     background-image: var(--bg-gradient);
     width: 100%;
     height: 100vh;
-    /* object-fit: cover; */
     background-size: 300% 300%;
     display: flex;
     flex-direction: row;
     padding: 3%;
     overflow: hidden;
     justify-content: space-between;
-    animation: color 30s ease infinite;
-    /* backdrop-filter: blur(2000px); */
+    animation: color 40s ease infinite;
+    backdrop-filter: blur(2000px);c
     opacity: 9;
     overflow: hidden;
     position: relative;
-}
-.bg-nude::before,
-.bg-nude::after {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 100vh;
-  background-color: var(--primary-color);
-  transform: skew(-13deg) scale(2.6);
-  border: 1px solid var(--secondary-color);
-}
-
-.bg-nude::before {
-  left: 16%;
-  top: 0;
-}
-
-.bg-nude::after {
-  left: 14%;
-  bottom: 0;
 }
 
 @keyframes color {
@@ -49,9 +28,97 @@
 	}
 }
 
+.bg-nude::before,
+.bg-nude::after{
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100vh;
+  background-color: var(--primary-color);
+  transform: skew(-11deg) scale(1.9);
+  border: 1px solid var(--secondary-color);
+
+}
+
+
+.bg-nude::before {
+  left: 16%;
+  top: 0;
+}
+
+.bg-nude::after {
+  left: 14%;
+  bottom: 0;
+}
+
 
 @media screen and (max-width: 991px){
     .bg-nude{
         flex-direction: column;
     }
+} */
+
+
+.bg-nude{
+  background-image: var(--bg-gradient);
+  width: 100%;
+    height: 100vh;
+    background-size: 300% 300%;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    overflow: hidden;
+    justify-content: space-between;
+    animation: color 40s ease infinite;
+    /* backdrop-filter: blur(2000px);c */
+    /* opacity: 9; */
+    overflow: hidden;
+    position: relative;
+}
+@keyframes color {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.aurora1{
+  position: absolute;
+  left: 120px;
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  background-image: var(--violet-orb-xl);
+  filter: blur(10px);
+  animation: rotate 10s infinite, up 40s infinite;
+  
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes up{
+  0%, 100%{
+    top: -100px;
+  }
+  70%{
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .bg-nude{
+      flex-direction: column;
+  }
 }

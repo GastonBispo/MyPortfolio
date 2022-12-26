@@ -14,7 +14,8 @@
 
 :root{
     /* --bg-color: #4158D0; */
-    --bg-gradient: linear-gradient(99deg, #ff94fb, #ffd7af, #e7bbee, #fff5db);
+    --bg-gradient: linear-gradient(99deg, #ff94fb, #ffd7af, #f1b2e8, #fff5db);
+    --bg-obscure_gradient: linear-gradient(66deg, #131313, #191019, #131313, #05010c);
     --black: #000000;
     --primary-shade: #3a3a3a;
     --text-color-light: #e3e3e3;
@@ -23,6 +24,9 @@
     --primary-font: 'Goodnight London Sans', sans-serif;
     --secondary-font: 'Nagaiya', sans-serif;
     --paragraph-font:  'Open Sauce Two', sans-serif;
+    --violet-orb-xl: linear-gradient(70deg, rgb(174, 37, 215),rgba(248, 102, 248, 0.8));
+    --deep-red-orb-s:  linear-gradient(70deg, rgb(175, 0, 0),rgba(255, 233, 65, 0.405));
+    --scrollbar-gradient: linear-gradient(to top, #ff94fb, #ffd7af);
     
 }
 
@@ -38,7 +42,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background: var(--primary-color);
+    background: var(--scrollbar-gradient);
     border-radius: 5px;
 }
 
