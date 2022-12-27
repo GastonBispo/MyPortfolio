@@ -1,8 +1,7 @@
 import React from 'react';
 import './NameDescription.css';
 import Tilt from 'react-parallax-tilt';
-
-
+import Glassmorphism from '../Glassmorphism/Glassmorphism';
 
 
 const NameDescription = () => {
@@ -17,15 +16,7 @@ const NameDescription = () => {
             glareColor="#ffffff" 
             glarePosition="top" 
             glareBorderRadius="15px">
-          <div className='nameDescriptionContainer'>
-              <div className='name'>
-                <h1>NUNES BISPO</h1>
-              </div>
-              <div className='description'>
-                <p>PRIVATE SECURITY ADVISOR </p>
-                <p>REACT DEVELOPER</p>
-              </div>
-          </div>
+            <Glassmorphism/>
           </Tilt>
         </div>
   )

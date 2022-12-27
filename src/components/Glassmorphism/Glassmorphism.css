@@ -1,15 +1,4 @@
-.innerContainer {
-    width: 500px;
-    /* height: 200px; */
-    display: flex;
-    align-items:flex-end;
-    justify-content: center;
-    /* background-color: aquamarine; */
-    padding-bottom: 6em;
-    
-  }
-  
-  .nameDescriptionContainer {
+.nameDescriptionContainer {
     width: 500px;
     height: 250px;
     display: flex;

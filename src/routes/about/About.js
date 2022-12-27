@@ -1,25 +1,29 @@
 import React from 'react';
+import BgObscure from '../../components/BgObscure/BgObscure';
 import './about.css';
+import Footer from '../../components/footer/Footer';
+import Presentation from '../../components/Presentantion/Presentation';
+import Glassmorphism from '../../components/Glassmorphism/Glassmorphism';
+import Tilt from 'react-parallax-tilt';
 
 const About = () => {
   return (
-    <div className='bg-obscure'>
-      <div className='aurora2'></div>
-      <div className='saludo-container'>
-        <div className='saludo'>
-          <h1>About.</h1>
-        </div>
-        <div className='subtitulo'>
-          <h2>dcbsidbc jdcs ouschsubc ousdchou</h2>
-        </div>
-        <div className='paragraph'>
-          <p>dkdbcali ivbldhblhdcb ifvbsdifvhbldh vbdfhvb fb hbvaisdbvc 
-            fvhb lfvhb  hvbsihfb hbcslhvb  vbsfvbsfd vb fhbv lfihvbsldfhvb 
-            lkv bv hfvb lsdfkvb slkvb  l lfhbv  fbv fhvb hbfv rh fvfbkzh 
-            hbcualai uebbcksjch  oa h uwh  b hejeb ej</p>
-        </div>
-      </div>
-    </div>
+    <>
+    <BgObscure>
+      <Presentation/>
+        <Tilt
+        tiltAngleYInitial={20} 
+        tiltReverse={true} 
+        glareEnable={true} 
+        glareMaxOpacity={0.8} 
+        glareColor="#ffffff" 
+        glarePosition="top" 
+        glareBorderRadius="15px">
+        <Glassmorphism/>
+        </Tilt>
+    </BgObscure>
+    <Footer/>
+    </>
   )
 }
 

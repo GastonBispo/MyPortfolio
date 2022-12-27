@@ -1,13 +1,18 @@
 import React from 'react';
+import BgNude from '../../components/BgNude/BgNude';
+import NameDescription from '../../components/NameDescription/NameDescription';
+import Nav from '../../components/menu/Nav';
 import Footer from '../../components/footer/Footer';
-import HeroImg from '../../components/heroImg/HeroImg';
 
 const Home = () => {
   return (
-    <div>
-      <HeroImg/>
+    <>
+      <BgNude>
+        <NameDescription />
+        <Nav />
+      </BgNude>
       <Footer/>
-    </div>
+    </>
   )
 }
 

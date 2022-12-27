@@ -1,0 +1,60 @@
+.saludo-container{
+    /* margin-top: 6%; */
+    /* height: 200%; */
+    width: 66%;
+    /* background-color:chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align:left;
+    font-family: var(--primary-font);
+    color: var(--text-color-light);
+    position: relative;
+}
+
+.saludo{
+    width: 90%;
+    height: auto;
+    /* padding-top: 2em; */
+    margin: 3em 0;
+    /* background-color: cadetblue; */
+    text-align: left;
+}
+
+.saludo > h1{
+    font-size: 13em;
+    font-family: var(--primary-font);
+    color: var(--text-color-light);
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 15px;
+    /* font-size: 10vw; */
+}
+
+.subtitulo{
+    width: 90%;
+    margin: 2em 0;
+    /* background-color:crimson; */
+}
+
+.subtitulo > h2{
+    font-size: 3em;
+    font-family: var(--secondary-font);
+
+}
+
+.paragraph{
+    width: 90%;
+    /* height: 100%; */
+    margin: 4em 0;
+    /* background-color: darkolivegreen; */
+}
+
+.paragraph > p{
+    font-size: 2em;
+    font-family: var(--secondary-font);
+}
+
+
