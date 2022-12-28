@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align:left;
-    font-family: var(--primary-font);
+    /* font-family: var(--primary-font); */
     color: var(--text-color-light);
     position: relative;
 }
@@ -17,7 +17,7 @@
     width: 90%;
     height: auto;
     /* padding-top: 2em; */
-    margin: 3em 0;
+    margin: 5em 0 1em 0;
     /* background-color: cadetblue; */
     text-align: left;
 }
@@ -54,7 +54,7 @@
 
 .paragraph > p{
     font-size: 2em;
-    font-family: var(--secondary-font);
+    font-family: var(--paragraph-font);
 }
 
 
