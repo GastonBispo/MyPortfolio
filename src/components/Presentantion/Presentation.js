@@ -1,11 +1,13 @@
 import React from 'react';
 import './Presentantion.css';
+import GoBackButton from '../GoBackButton/GoBackButton';
 
 const Presentation = () => {
   return (
     <div className='saludo-container'>
           <div className='saludo'>
             <h1>About</h1>
+            <GoBackButton/>
           </div>
           <div className='subtitulo'>
             <h2>CBSJDBS SIASJUC DBCDUDUEU CBUD</h2>

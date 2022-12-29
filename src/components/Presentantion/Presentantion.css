@@ -20,6 +20,12 @@
     margin: 5em 0 1em 0;
     /* background-color: cadetblue; */
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: right;
+    align-items: flex-end;
+    position: relative;
 }
 
 .saludo > h1{
@@ -35,7 +41,7 @@
 
 .subtitulo{
     width: 90%;
-    margin: 2em 0;
+    margin: 4em 0 1em 0;
     /* background-color:crimson; */
 }
 
@@ -48,7 +54,7 @@
 .paragraph{
     width: 90%;
     /* height: 100%; */
-    margin: 4em 0;
+    margin: 2em 0;
     /* background-color: darkolivegreen; */
 }
 

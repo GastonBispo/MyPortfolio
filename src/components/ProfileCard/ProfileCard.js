@@ -10,7 +10,7 @@ const ProfileCard = () => {
         tiltReverse={true} 
         glareEnable={true}
         tiltAngleYInitial={-15} 
-        glareMaxOpacity={0.8} 
+        glareMaxOpacity={2.8} 
         glareColor="#ffffff" 
         glarePosition="top" 
         glareBorderRadius="15px">

@@ -1,0 +1,50 @@
+.go-back-button{
+    width: 200px;
+    /* height: 70px; */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 2px solid rgba(255, 255, 255, 0.637);
+    border-left: 2px solid rgba(255, 255, 255, 0.636);
+    backdrop-filter: blur(10px);
+    /* user-select: none; */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: transform 800ms ease;
+}
+
+.go-back-button:hover{
+    transform: translate(6px);
+    transition: 1000ms ease;
+}
+
+.go-back-button > a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.go-back-button__button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-family: var(--primary-font);
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--text-color-light);
+    transform: translate(6px);
+    transition: 1000ms ease;
+}
+
+.go-back-button__button:hover{
+    font-style: italic;
+    transition: ease;
+}

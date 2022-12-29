@@ -15,7 +15,7 @@
 :root{
     /* --bg-color: #4158D0; */
     --bg-gradient: linear-gradient(99deg, #ff94fb, #ffd7af, #f1b2e8, #fff5db);
-    --bg-obscure-gradient: linear-gradient(66deg, #131313, #261726, #131313, #080129);
+    --bg-obscure-gradient: linear-gradient(66deg, #131313, #321e32, #131313, #100737);
     --black: #000000;
     --primary-shade: #3a3a3a;
     --text-color-light: #e3e3e3;
@@ -24,14 +24,14 @@
     --primary-font: 'Goodnight London Sans', sans-serif;
     --secondary-font: 'Nagaiya', sans-serif;
     --paragraph-font:  'Open Sauce Two', sans-serif;
-    --violet-orb-xl: linear-gradient(70deg, rgb(174, 37, 215),rgba(248, 102, 248, 0.8));
-    --deep-red-orb-s:  linear-gradient(70deg, rgb(175, 0, 0),rgba(255, 233, 65, 0.485));
-    --scrollbar-gradient: linear-gradient(to top ,#3a3a3a, #c968d3);
+    --violet-orb-xl: linear-gradient(70deg, var(--primary-color),rgba(182, 102, 248, 0.8));
+    --deep-red-orb-s:  linear-gradient(70deg, var(--primary-color),rgba(175, 43, 133, 0.496));
+    --scrollbar-gradient: linear-gradient(to top ,var(--primary-shade), var(--primary-color));
     
 }
 
 body{
-    background-color: #0f0012;
+    background-color: var(--secondary-color);
     /* font-family: 'Fahkwang', 'sans-serif'; */
     
 }

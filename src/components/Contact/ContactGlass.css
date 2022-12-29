@@ -1,0 +1,14 @@
+.contact-glass{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    background-color: beige;
+}
+
+.contact-glass__header{
+    /* width: 100%; */
+    background-color: aquamarine;
+}

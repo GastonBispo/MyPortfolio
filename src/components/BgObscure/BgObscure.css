@@ -1,16 +1,13 @@
 .bg-obscure{
-    background-image: var(--bg-obscure_gradient);
+    background-image: var(--bg-obscure-gradient);
     width: 100%;
-      height: 100%;
-      background-size: 400% 400%;
+      background-size: 600% 600%;
       display: flex;
       flex-direction: row;
       padding: 3%;
-      /* overflow: hidden; */
       justify-content: space-between;
       animation: color 66s ease infinite;
       backdrop-filter: blur(20px);
-      /* opacity: 9; */
       overflow: hidden;
       position: relative;
   }
@@ -28,12 +25,12 @@
 
   .aurora2{
     position: absolute;
-    left: 80%;
+    left: 55%;
     height: 300px;
     width: 300px;
     border-radius: 50%;
     background-image: var(--deep-red-orb-s);
-    filter: blur(7px);
+    filter: blur(5px);
     animation: rotate 13s infinite, up 66s infinite;
     
   }
