@@ -1,0 +1,24 @@
+.about-header__container{
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 2em;
+    margin: 5em 0 1em 0;
+    /* background-color: cadetblue; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: right; */
+    align-items:flex-end;
+    position: relative;
+}
+
+.about-header__header{
+    font-size: 13em;
+    font-family: var(--primary-font);
+    color: var(--text-color-light);
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 15px;
+}
