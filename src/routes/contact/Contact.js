@@ -3,6 +3,7 @@ import BgObscure from '../../components/BgObscure/BgObscure';
 import Footer from '../../components/footer/Footer';
 import ContactGlass from '../../components/Contact/ContactGlass';
 
+
 const Contact = () => {
   return (
     <>
@@ -10,7 +11,6 @@ const Contact = () => {
       <BgObscure>
         <ContactGlass/>
       </BgObscure>
-
       <Footer/>
 
     </>
