@@ -25,7 +25,7 @@
     --secondary-font: 'Nagaiya', sans-serif;
     --paragraph-font:  'Open Sauce Two', sans-serif;
     --violet-orb-xl: linear-gradient(70deg, var(--primary-color),rgba(182, 102, 248, 0.8));
-    --deep-red-orb-s:  linear-gradient(70deg, var(--primary-color),rgba(175, 43, 133, 0.496));
+    --deep-violet-orb-s:  linear-gradient(70deg, var(--primary-color),rgba(175, 43, 133, 0.496));
     --scrollbar-gradient: linear-gradient(to top ,var(--primary-shade), var(--primary-color));
     
 }

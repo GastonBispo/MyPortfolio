@@ -5,7 +5,10 @@
     background-image: url(../../assets/img/bg-purple.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-
+    height: 100vh;
+    bottom: 0;
+    position: fixed;
+    z-index: -100;
 }
 
 .container-center{
@@ -29,7 +32,7 @@
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     align-items: flex-end;
     /* background-color: aquamarine; */
     width: 100%;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactGlass.css';
-import SocialIcons from '../SocialIcons/SocialIcons';
+import SocialIcons from '../Generics/SocialIcons/SocialIcons';
 
 
 const ContactGlass = () => {

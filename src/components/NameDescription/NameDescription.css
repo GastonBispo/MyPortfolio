@@ -10,7 +10,7 @@
   }
   
   .nameDescriptionContainer {
-    background-color: beige;
+    /* background-color: beige; */
     width: 500px;
     height: 250px;
     display: flex;
@@ -20,12 +20,12 @@
     justify-content: space-between;
     /* transform: translate(-50% -50%); */
     padding: 1em 1em;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     border-top: 2px solid rgba(255, 255, 255, 0.637);
     border-left: 2px solid rgba(255, 255, 255, 0.636);
-    backdrop-filter: blur(60px);
+    backdrop-filter: blur(20px);
     user-select: none;
     position: relative;  
     

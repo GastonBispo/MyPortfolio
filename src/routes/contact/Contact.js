@@ -6,10 +6,13 @@ import ContactGlass from '../../components/Contact/ContactGlass';
 const Contact = () => {
   return (
     <>
-      <BgObscure height="100vh">
+
+      <BgObscure>
         <ContactGlass/>
       </BgObscure>
+
       <Footer/>
+
     </>
   )
 }

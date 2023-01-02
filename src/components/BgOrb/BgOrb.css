@@ -1,10 +1,10 @@
 .orbSmall{
     position: absolute;
     left: 55%;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
-    background-image: var(--gradient-purple-orb-sm);
+    background-image: var(--deep-violet-orb-s);
     filter: blur(5px);
     animation: rotate 13s infinite, up 66s infinite;
     
