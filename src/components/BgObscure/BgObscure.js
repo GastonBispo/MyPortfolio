@@ -1,14 +1,17 @@
 import React from 'react';
 import './BgObscure.css';
-import BgOrb from '../BgOrb/BgOrb';
+import BgOrb from '../BgObscureOrb/BgOrb';
+import Footer from '../footer/Footer';
 
 const BgObscure = (props) => {
   return (
+    <>
     <div className='bg-obscure'>
-        {/* <div className='aurora2'></div> */}
-        <BgOrb/>
+      <BgOrb/>
       {props.children}
     </div>
+    <Footer/>
+    </>
   )
 }
 

@@ -29,36 +29,6 @@
       }
   }
 
-  /* .aurora2{
-    position: absolute;
-    left: 55%;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-image: var(--deep-red-orb-s);
-    filter: blur(5px);
-    animation: rotate 13s infinite, up 66s infinite;
-    
-  }
-  
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes up{
-    0%, 100%{
-      top: -50px;
-    }
-    70%{
-      top: 200px;
-    }
-  }
-   */
   @media screen and (max-width: 991px){
     .bg-obscure{
         flex-direction: column;

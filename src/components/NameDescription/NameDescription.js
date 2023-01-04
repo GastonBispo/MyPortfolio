@@ -1,12 +1,19 @@
 import React from 'react';
 import './NameDescription.css';
 import Tilt from 'react-parallax-tilt';
+import { motion , AnimatePresence } from 'framer-motion';
+import { aparicionIzquierda } from '../Generics/VariantsFramer/AparicioIzquierda';
 
 
 const NameDescription = () => {
   return (
-      
-        <div className='innerContainer'>
+    <AnimatePresence>
+        <motion.div className='innerContainer'
+          variants={aparicionIzquierda}
+          initial='hidden'
+          animate='visible'
+          
+        >
           <Tilt
             tiltAngleYInitial={15} 
             tiltReverse={true} 
@@ -25,7 +32,10 @@ const NameDescription = () => {
               </div>
             </div>
           </Tilt>
-        </div>
+        </motion.div>
+     </AnimatePresence>
+
+        
   )
 }
 
