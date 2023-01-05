@@ -1,8 +1,8 @@
 .orbSmall{
     position: absolute;
-    left: 55%;
-    height: 400px;
-    width: 400px;
+    left: 50%;
+    height: 600px;
+    width: 600px;
     border-radius: 50%;
     background-image: var(--deep-violet-orb-s);
     filter: blur(5px);

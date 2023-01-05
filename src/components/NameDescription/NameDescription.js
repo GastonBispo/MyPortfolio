@@ -8,7 +8,7 @@ import { aparicionIzquierda } from '../Generics/VariantsFramer/AparicioIzquierda
 const NameDescription = () => {
   return (
     <AnimatePresence>
-        <motion.div className='innerContainer'
+        <motion.div className='inner-description__ontainer'
           variants={aparicionIzquierda}
           initial='hidden'
           animate='visible'
@@ -22,7 +22,7 @@ const NameDescription = () => {
             glareColor="#ffffff" 
             glarePosition="top" 
             glareBorderRadius="15px">
-            <div className='nameDescriptionContainer'>
+            <div className='name-description__container'>
               <div className='name'>
                 <h1>NUNES BISPO</h1>
               </div>

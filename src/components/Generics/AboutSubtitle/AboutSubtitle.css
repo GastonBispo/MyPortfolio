@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5em;
 }
 
 .about-subtitle__h2{

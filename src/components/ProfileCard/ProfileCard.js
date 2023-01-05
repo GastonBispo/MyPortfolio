@@ -7,7 +7,7 @@ import { motion , AnimatePresence } from 'framer-motion';
 
 const ProfileCard = () => {
   return (
-    <div className='innerContainer'>
+    <div className='inner-profile__ontainer'>
     <Tilt 
         tiltReverse={true} 
         glareEnable={true}
@@ -30,7 +30,6 @@ const ProfileCard = () => {
             </div>
         </motion.div>
      </AnimatePresence>
-        
     </Tilt>
     </div>
   )

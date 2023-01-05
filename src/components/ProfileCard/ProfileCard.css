@@ -1,10 +1,11 @@
-.innerContainer{
-    width: 400px;
-    height: 750px;
+.inner-profile__ontainer{
+    width: 35%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: flex-start;
 }
 
 .profile-card {
@@ -56,12 +57,6 @@
   margin: 6px 0;
 }
 
-/* .profile-card__birthdate{
-  font-family: var(--paragraph-font);
-  font-size: 1.5em;
-  color: var(--text-color-light);
-  margin: 6px 0;
-} */
 
 .profile-card__nationality{
   font-family: var(--paragraph-font);

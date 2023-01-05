@@ -14,7 +14,7 @@
       margin: 0 0 100vh 0;
       background-color: transparent;
       box-shadow: 0 0 12px 0 rgba(0, 0, 0, 3.6);
-      z-index: 100;
+      /* z-index: 100; */
   }
 
   @keyframes color {
@@ -28,6 +28,7 @@
           background-position: 0% 50%;
       }
   }
+
 
   @media screen and (max-width: 991px){
     .bg-obscure{

@@ -1,15 +1,16 @@
-.innerContainer {
+.inner-description__ontainer{
     width: 40%;
-    /* height: 250px; */
+    height: auto;
     display: flex;
-    align-items:flex-end;
+    align-items: center;
     justify-content: center;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     /* padding-bottom: 6em; */
-    margin-left: 5em;
+    margin-left: 3em;
+    margin-top: 8em;
   }
   
-  .nameDescriptionContainer {
+  .name-description__container{
     /* background-color: beige; */
     width: 500px;
     height: 250px;

@@ -1,16 +1,24 @@
 import React from 'react';
 import './Presentation.css';
 import AboutSubtitle from '../../Generics/AboutSubtitle/AboutSubtitle';
-import AboutHeader from '../../Generics/AboutHeader/AboutHeader';
+import AboutHeader from '../../Generics/GenericHeader/Header&Button';
 import AboutParagraph from '../../Generics/AboutParagraph/AboutParagraph';
+import { aparicionBlur } from '../../Generics/VariantsFramer/AparicionBlur';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const Presentation = () => {
   return (
-    <div className='presentation__container'>
-      <AboutHeader/>
-      <AboutSubtitle/>
-      <AboutParagraph/>
-    </div>
+    <AnimatePresence>
+      <motion.div className='presentation__container'
+        variants={aparicionBlur}
+        initial='hidden'
+        animate='visible'
+        >
+        <AboutHeader headerText='About'/>
+        <AboutSubtitle/>
+        <AboutParagraph/>
+      </motion.div>
+    </AnimatePresence>
       
         
 

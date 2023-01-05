@@ -2,16 +2,26 @@
     width: 100%;
     /* height: 100%; */
     padding-top: 2em;
-    margin: 5em 0 1em 0;
+    margin-top: 12%;
     /* background-color: cadetblue; */
     text-align: left;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    /* justify-content: right; */
-    align-items:flex-end;
+    text-align:right;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    /* z-index: -200; */
 }
+
+/* .header-button__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+} */
 
 .about-header__header{
     font-size: 13em;
@@ -21,4 +31,9 @@
     font-style: italic;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 15px;
+    margin: 0;
 }
+
+/* .about-header__header > h1 {
+    margin: 0;
+} */

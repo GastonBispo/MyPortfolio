@@ -1,12 +1,24 @@
-.contact-glass{
-    min-width: 400px;
+/* .inner-contact__ontainer{
+
+} */
+
+.contact-card{
+    width: 400px;
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: right;
-    background-color: beige;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 2px solid rgba(255, 255, 255, 0.637);
+    border-left: 2px solid rgba(255, 255, 255, 0.636);
+    backdrop-filter: blur(60px);
+    user-select: none;
+    position: relative;
 }
 
 .contact-glass__header{
