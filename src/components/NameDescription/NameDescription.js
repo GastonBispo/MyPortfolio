@@ -8,7 +8,7 @@ import { aparicionIzquierda } from '../Generics/VariantsFramer/AparicioIzquierda
 const NameDescription = () => {
   return (
     <AnimatePresence>
-        <motion.div className='inner-description__ontainer'
+        <motion.div className='inner-description__container'
           variants={aparicionIzquierda}
           initial='hidden'
           animate='visible'
