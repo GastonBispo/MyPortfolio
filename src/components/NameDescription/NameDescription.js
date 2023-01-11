@@ -11,11 +11,10 @@ const NameDescription = () => {
         <motion.div className='inner-description__container'
           variants={aparicionIzquierda}
           initial='hidden'
-          animate='visible'
-          
+          animate='visible'        
         >
           <Tilt
-            tiltAngleYInitial={15} 
+            // tiltAngleYInitial={15} 
             tiltReverse={true} 
             glareEnable={true} 
             glareMaxOpacity={0.8} 
@@ -28,7 +27,7 @@ const NameDescription = () => {
               </div>
               <div className='description'>
                 <p>PRIVATE SECURITY ADVISOR </p>
-                <p>REACT DEVELOPER</p>
+                <p>WEB DEVELOPER</p>
               </div>
             </div>
           </Tilt>

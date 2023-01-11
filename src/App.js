@@ -5,9 +5,11 @@ import About from './routes/about/About';
 import Contact from './routes/contact/Contact';
 import MyServices from './routes/myServices/MyServices';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
+    <HelmetProvider>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -16,6 +18,7 @@ function App() {
         <Route path='/myServices' element={<MyServices/>}/>
       </Routes>
     </BrowserRouter>
+    </HelmetProvider>
     
     
   );
