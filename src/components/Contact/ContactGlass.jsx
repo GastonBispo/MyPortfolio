@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactGlass.css';
+import './ContactGlass.scss';
 import SocialIcons from '../Generics/SocialIcons/SocialIcons';
 import Tilt from 'react-parallax-tilt';
 

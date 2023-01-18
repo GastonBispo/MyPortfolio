@@ -5,7 +5,7 @@ const MyServices = () => {
   return (
     <>
       <Helmet>
-          <title> home titulo</title>
+          <title> services titulo</title>
           <meta name="description" content="palabras fundamentales orientadas a mi portfolio y nombre/marca personal"/>
       </Helmet>
       <div>MyServices</div>

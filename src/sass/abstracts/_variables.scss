@@ -1,0 +1,23 @@
+    $bg-gradient: linear-gradient(99deg, #fd93f9, #ffd7af, #f1b2e8, #fff5db);
+    $bg-obscure-gradient: linear-gradient(66deg, #131313, #321e32, #131313, #100737);
+    $black: #000000;
+    $primary-shade: #3a3a3a;
+    $text-color-light: #e3e3e3;
+    $primary-color: #c968d3;
+    $shadow: rgba(0, 0, 0, 3.6);
+    $primary-rgba-color: rgba(182, 102, 248, 0.8);
+    $box-shadow: 0 0 12px 0 $shadow;
+    $secondary-color: #1d1d1d;
+    $violet-orb-xl: linear-gradient(70deg, $primary-color, $primary-rgba-color);
+    $deep-violet-orb-s:  linear-gradient(70deg, $primary-color, $primary-rgba-color);
+    $scrollbar-gradient: linear-gradient(to top ,$primary-shade, $primary-color);
+
+    // fonts
+    $primary-font: 'Goodnight London Sans', sans-serif;
+    $secondary-font: 'Nagaiya', sans-serif;
+    $paragraph-font:  'Open Sauce Two', sans-serif;
+
+    /* MediaQueries */
+
+    $tablet-breakpoint: 780px;
+    $desktop-breakpoint: 1190px;

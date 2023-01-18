@@ -1,0 +1,24 @@
+@use '/src/sass/abstracts/variables' as v;
+@import '/src/sass/abstracts/mechanics';
+
+
+@mixin flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin orb {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-image: v.$deep-violet-orb-s;
+    filter: blur(5px);
+    @include mechanic-rotate;
+    @include mechanic-up;
+    
+  }
+  

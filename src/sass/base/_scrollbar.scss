@@ -1,0 +1,13 @@
+@use '/src/sass/abstracts/variables' as v;
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: v.$secondary-color;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: v.$scrollbar-gradient;
+    border-radius: 5px;
+}
+

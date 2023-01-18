@@ -1,0 +1,29 @@
+@use '/src/sass/abstracts/variables' as v;
+@import '/src/sass/abstracts/mechanics';
+
+.bg-obscure{
+    background-image: v.$bg-obscure-gradient;
+    width: 100%;
+    /* height: 100%; */
+    background-size: 600% 600%;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-between;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 100vh 0;
+    background-color: transparent;
+    box-shadow: v.$box-shadow;
+    @include  gradient-animation 
+  }
+
+
+  @media screen and (max-width: 991px){
+    .bg-obscure{
+        flex-direction: column;
+    }
+  }
+
+ 

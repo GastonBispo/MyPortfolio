@@ -1,0 +1,19 @@
+@use '/src/sass/abstracts/variables' as v;
+
+
+.social-icons{
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    /* background-color: azure; */
+}
+
+.social-icons__item{
+    font-size: 32px;
+    color: v.$text-color-light;
+    margin: auto;
+    /* background-color: coral; */
+}

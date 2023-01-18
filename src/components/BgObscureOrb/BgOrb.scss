@@ -1,0 +1,18 @@
+@import '/src/sass/abstracts/mixins';
+
+
+.orb{
+    @include orb;
+  }
+
+  .orb.left {
+    left: 13%;
+  }
+
+  .orb.center {
+    left: 33%;
+  }
+  
+  .orb.right {
+    left: 50%;
+  }
