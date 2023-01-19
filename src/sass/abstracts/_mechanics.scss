@@ -12,14 +12,14 @@
 
 @mixin mechanic-up {
   animation: up 66s infinite;
-      @keyframes up{
-        0%, 100%{
-          top: -50px;
-        }
-        70%{
-          top: 200px;
-        }
-      }
+@keyframes up{
+    0%, 100%{
+      top: -50px;
+    }
+    70%{
+      top: 200px;
+    }
+    }
 }
 
 @mixin gradient-animation {

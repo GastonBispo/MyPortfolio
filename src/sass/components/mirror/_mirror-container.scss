@@ -1,0 +1,17 @@
+@use '/src/sass/layout/flex-boxes' as box;
+@use '/src/sass/abstracts/variables' as v;
+
+
+@mixin mirror-container{
+    width: 40%;
+    @include box.flex-column-center;
+    position: absolute;
+    box-shadow: v.$shadow;
+    border-radius: 15px;
+    border-top: 2px solid v.$border-glass;
+    border-left: 2px solid v.$border-glass;
+    backdrop-filter: blur(20px);
+    user-select: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}

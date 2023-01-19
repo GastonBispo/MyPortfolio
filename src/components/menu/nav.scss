@@ -1,9 +1,9 @@
 @use '/src/sass/abstracts/variables' as v;
-@import '/src/sass/abstracts/mixins';
+@use '/src/sass/layout/flex-boxes' as box;
 
 
 .menu-container{
-    @include flex-column-center;
+    @include box.flex-column-center;
     // background-color: rgb(184, 184, 255);
     width: 60%;
     height: 100vh;

@@ -1,12 +1,12 @@
 import React from 'react';
-import './BgOrb.scss';
+import './BgOrbLeft.scss';
 import { aparicionOrb } from '../Generics/VariantsFramer/AparicionOrb';
 import { motion , AnimatePresence } from 'framer-motion';
 
-const BgOrb = ({ position = "right" }) => {
+const BgOrb = () => {
   return (
     <AnimatePresence>
-      <motion.div className={`orb ${position}`}
+      <motion.div className='orb-left'
         variants={aparicionOrb}
         initial='hidden'
         animate='visible'

@@ -4,7 +4,8 @@ import Presentation from '../../components/Layout/Presentation/Presentation';
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import {Helmet} from 'react-helmet-async';
 import Footer from '../../components/footer/Footer';
-import BgOrb from '../../components/BgObscureOrb/BgOrb';
+import BgOrbRight from '../../components/BgOrbRight/BgOrbRight';
+
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
       </Helmet> 
       {/* convertir content en una funcion      */}
       <BgObscure>
-        <BgOrb position='right'/>
+        <BgOrbRight/>
         <Presentation/>
         <ProfileCard/>
       </BgObscure>

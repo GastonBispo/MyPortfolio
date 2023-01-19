@@ -1,24 +1,15 @@
 @use '/src/sass/abstracts/variables' as v;
-@import '/src/sass/abstracts/mechanics';
+@use '/src/sass/abstracts/mechanics' as mech;
+@use '/src/sass/layout/flex-boxes' as box;
+@use '/src/sass/layout/main-container' as container;
 
 
 .bg-nude{
+    @include container.main-container;
+    @include mech.gradient-animation;
+    @include box.flex-row-center;
     background-image: v.$bg-gradient;
-    width: 100%;
-    background-size: 400% 400%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    padding: 0 3%;
-    justify-content:center;
-    backdrop-filter: blur(20px);
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 100vh;
-    background-color: transparent;
-    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 3.6);
-    @include gradient-animation;
+
   }
 
 /* media query............................ */

@@ -11,7 +11,7 @@ const ProfileCard = () => {
     <Tilt 
         tiltReverse={true} 
         glareEnable={true}
-        tiltAngleYInitial={-15} 
+        // tiltAngleYInitial={-15} 
         glareMaxOpacity={2.8} 
         glareColor="#ffffff" 
         glarePosition="top" 

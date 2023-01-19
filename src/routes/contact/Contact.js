@@ -4,7 +4,7 @@ import ContactGlass from '../../components/Contact/ContactGlass';
 import HeaderAndButton from '../../components/Generics/GenericHeader/Header&Button';
 import {Helmet} from 'react-helmet-async';
 import Footer from '../../components/footer/Footer';
-import BgOrb from '../../components/BgObscureOrb/BgOrb';
+import BgOrb from '../../components/BgOrbLeft/BgOrbLeft';
 
 const Contact = () => {
   return (

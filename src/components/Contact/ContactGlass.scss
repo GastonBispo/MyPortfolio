@@ -1,24 +1,27 @@
-/* .inner-contact__ontainer{
 
-} */
+@use '/src/sass/layout/flex-boxes' as box;
+@use '/src/sass/abstracts/variables' as v;
+
+   .inner-contact__ontainer{
+    width: 40%;
+    height: 100vh;
+    background-color: azure;
+    @include box.flex-column-center;
+} 
 
 .contact-card{
-    width: 400px;
+    // width: 100%;
     height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
+    @include box.flex-column-center;
     padding: 2rem 1rem;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 8px 0 v.$shadow;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    border-top: 2px solid rgba(255, 255, 255, 0.637);
-    border-left: 2px solid rgba(255, 255, 255, 0.636);
+    // background: rgba(255, 255, 255, 0.1);
+    border-top: v.$border-glass;
+    border-left: v.$border-glass;
     backdrop-filter: blur(60px);
     user-select: none;
-    position: relative;
+    // position: relative;
 }
 
 .contact-glass__header{

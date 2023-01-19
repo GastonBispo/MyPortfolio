@@ -1,0 +1,12 @@
+@use '/src/sass/abstracts/variables' as v;
+
+@mixin main-container {
+    box-shadow: v.$box-shadow;
+    width: 100%;
+    background-size: 400% 400%;
+    padding: 0 3%;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100vh;
+}

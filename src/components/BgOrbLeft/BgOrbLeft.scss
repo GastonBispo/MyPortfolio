@@ -1,0 +1,6 @@
+@use '/src/sass/abstracts/mixins' as mix;
+
+
+.orb-left{
+    @include mix.orb-left;
+  }
