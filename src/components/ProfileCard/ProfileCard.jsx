@@ -7,7 +7,7 @@ import { motion , AnimatePresence } from 'framer-motion';
 
 const ProfileCard = () => {
   return (
-    <div className='inner-profile__container'>
+  <div className='inner-profile__container'>
     <Tilt 
         tiltReverse={true} 
         glareEnable={true}
@@ -18,20 +18,20 @@ const ProfileCard = () => {
         glareBorderRadius="15px">
           <AnimatePresence>
             <motion.div class="profile-card"
-            variants={aparicionDerecha}
-            initial='hidden'
-            animate='visible'
-            >
-            <img src={ProfilePic} alt='card-img' class="profile-card__pic"></img>
-            <div class="profile-card__info">
-                <h1 class="profile-card__name">Carlos Gaston Nunes Bispo</h1>
-                <p class="profile-card__occupations">Private Security Advisor - Web Developer</p>
-                <p class="profile-card__nationality">Argentine</p>              
-            </div>
-        </motion.div>
-     </AnimatePresence>
+              variants={aparicionDerecha}
+              initial='hidden'
+              animate='visible'
+              >
+              <img src={ProfilePic} alt='Profile img' class="profile-card__pic"></img>
+              <div class="profile-card__info">
+                  <h1 class="profile-card__name">Carlos Gaston Nunes Bispo</h1>
+                  <p class="profile-card__occupations">Private Security Advisor - Web Developer</p>
+                  <p class="profile-card__nationality">Argentine</p>              
+              </div>
+            </motion.div>
+          </AnimatePresence>
     </Tilt>
-    </div>
+  </div>
   )
 }
 

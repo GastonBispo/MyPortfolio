@@ -1,0 +1,9 @@
+@use '/src/sass/layout/flex-boxes' as box;
+
+
+@mixin smoke-container{
+    width: 60%;
+    height: 100vh;
+    @include box.flex-column-center;
+    background-color: rgb(255, 255, 52);
+}

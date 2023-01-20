@@ -14,7 +14,7 @@ const About = () => {
         <title> about titulo</title>
         <meta name="description" content="aqui debo describir my about"/>
       </Helmet> 
-      {/* convertir content en una funcion      */}
+      {/* convertir meta content en una funcion      */}
       <BgObscure>
         <BgOrbRight/>
         <Presentation/>

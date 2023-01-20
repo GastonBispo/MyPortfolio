@@ -12,14 +12,12 @@
 
   }
 
-/* media query............................ */
+  @media screen and (max-width: 779px) {
+    .bg-nude{
+      flex-direction: column;
 
-@media screen and (max-width: 779px) {
-  .bg-nude{
-    flex-direction: column;
-
+    }
   }
-}
 
 @media screen and (min-width: 780px) and (max-width: 991px) {
   .bg-nude{

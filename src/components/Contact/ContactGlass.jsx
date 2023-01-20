@@ -6,8 +6,9 @@ import Tilt from 'react-parallax-tilt';
 
 const ContactGlass = () => {
   return (
-    <div className='inner-contact__ontainer'>
-      <Tilt tiltReverse={true} 
+    <div className='inner-contact-container'>
+      <Tilt 
+        tiltReverse={true} 
         glareEnable={true}
         // tiltAngleYInitial={15} 
         glareMaxOpacity={2.8} 
