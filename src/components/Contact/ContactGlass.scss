@@ -4,16 +4,19 @@
 
 .inner-contact-container{
     @include container.mirror-container;
-    .contact-card{
-        @include box.flex-column-center;
-        @include effect.mirror-effect;
-        margin-top: 2em;
-        height: 90vh;
-        width: 100%;
-        overflow: hidden;
-        .contact-card__header{
-            background-color: blanchedalmond;
-        }
+    position: absolute;
+    top: 0;
+    left: 3%;
+}
+.contact-card{
+    @include box.flex-column-center;
+    @include effect.mirror-effect;
+    margin-top: 2em;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    .contact-card__header{
+        background-color: blanchedalmond;
     }
 }
 

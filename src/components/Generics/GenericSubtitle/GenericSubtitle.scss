@@ -1,0 +1,20 @@
+@use '/src/sass/abstracts/variables' as v;
+@use '/src/sass/layout/generic-container' as container;
+@use '/src/sass/layout/flex-boxes' as box;
+
+
+.about-subtitle__container{
+    @include container.GenericContainer;
+    @include box.flex-column-right;
+    top: 65%;
+    left: 50%;
+    margin-left: 20%;
+}
+
+.about-subtitle__h2{
+    font-family: v.$secondary-font;
+    font-size: 3em;
+    font-weight: 600;
+    color: v.$text-color-light;
+    margin: 1em 0;
+}

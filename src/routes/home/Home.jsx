@@ -4,6 +4,7 @@ import Nav from '../../components/menu/Nav';
 import Footer from '../../components/footer/Footer';
 import {Helmet} from 'react-helmet-async';
 import BgOrbLeft from '../../components/BgOrbLeft/BgOrbLeft';
+import RightSide from '../../components/Layout/Right-side/RightSide';
 
 const Home = () => {
   return (
@@ -14,8 +15,10 @@ const Home = () => {
       </Helmet>
       <BgNude>
         <BgOrbLeft/>
-        <NameDescription />
-        <Nav />
+        <NameDescription/>
+        <RightSide>
+          <Nav/>
+        </RightSide>
       </BgNude>   
       <Footer />
     </>

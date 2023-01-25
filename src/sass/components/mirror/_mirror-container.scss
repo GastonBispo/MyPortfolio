@@ -1,7 +1,8 @@
 
 
 @mixin mirror-container{
-    width: 35%;
+    width: 30%;
     height: 100vh;
-    background-color: darkgray;
+    position: absolute;
+    // background-color: darkgray;
 }

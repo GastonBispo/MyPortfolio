@@ -6,10 +6,10 @@
     text-align: center;
 }
 
-@mixin flex-row-center{
+@mixin flex-row-between{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
@@ -25,4 +25,12 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+@mixin flex-column-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }

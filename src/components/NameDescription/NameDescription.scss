@@ -6,19 +6,21 @@
 
 .inner-description__container{
   @include container.mirror-container;
-    .name-description__container{
-      @include box.flex-column-center;
-      @include effect.mirror-effect;
-      margin-top: 45vh;
-      height: 33vh;
-      width: 100%;
-      overflow: hidden;
-    }
-    .name {
-      background-color: aquamarine;
-      // width: 100%;
-    }
-  }
+  margin-left: 3%;
+}
+
+.name-description__container{
+  @include box.flex-column-center;
+  @include effect.mirror-effect;
+  margin-top: 45vh;
+  height: 33vh;
+  width: 100%;
+  overflow: hidden;
+}
+.name {
+  background-color: aquamarine;
+  // width: 100%;
+}
   
 
   .name > h1{

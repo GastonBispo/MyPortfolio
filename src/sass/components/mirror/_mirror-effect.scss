@@ -1,9 +1,7 @@
-// @use '/src/sass/layout/flex-boxes' as box;
 @use '/src/sass/abstracts/variables' as v;
 
 
 @mixin mirror-effect{
-    // @include box.flex-column-center;
     box-shadow: v.$glass-shadow;
     border-radius: 15px;
     border-top: v.$border-glass;

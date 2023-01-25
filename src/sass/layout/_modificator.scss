@@ -1,0 +1,10 @@
+@mixin lauyoutRight {
+    top: 25%;
+    left: 50%;
+    margin-left: 20%;
+}
+
+@mixin layoutLeft {
+    top: 25%;
+    left: 0;
+}

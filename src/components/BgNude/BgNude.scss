@@ -7,7 +7,7 @@
 .bg-nude{
     @include container.main-container;
     @include mech.gradient-animation;
-    @include box.flex-row-center;
+    @include box.flex-row-between;
     background-image: v.$bg-gradient;
 
   }

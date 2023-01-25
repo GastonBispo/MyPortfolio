@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileCard.scss';
-import ProfilePic from '../../assets/img/example-profile.jpg';
+import ProfilePic from '../../assets/img/Nunes Bispo Pic.jpg';
 import Tilt from 'react-parallax-tilt';
 import { aparicionDerecha } from '../Generics/VariantsFramer/aparicionDerecha';
 import { motion , AnimatePresence } from 'framer-motion';

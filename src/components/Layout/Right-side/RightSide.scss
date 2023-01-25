@@ -1,0 +1,9 @@
+@use '/src/sass/components/smoke/smoke-container' as smoke;
+
+
+.right-side__container{
+    @include smoke.smoke-container;
+    background-color: darkorange;
+    top: 0;
+    right: 3%;
+}

@@ -1,12 +1,12 @@
 @use '/src/sass/abstracts/variables' as v;
 @use '/src/sass/layout/flex-boxes' as box;
+@use '/src/sass/components/smoke/smoke-container' as smoke;
 
 
 .menu-container{
     @include box.flex-column-center;
-    // background-color: rgb(184, 184, 255);
-    width: 60%;
-    height: 100vh;
+    @include smoke.smoke-container;
+    right: 3%;
 }
 
 .menu{
