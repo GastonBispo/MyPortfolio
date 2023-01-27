@@ -8,15 +8,15 @@ import { aparicionBlur } from '../Generics/VariantsFramer/AparicionBlur';
 const Nav = () => {
   return (
     <AnimatePresence>
-        <motion.div className='menu-container' 
+        <motion.div className='nav__container' 
         variants={aparicionBlur}
         initial='hidden'
         animate='visible'
         >
-          <div className='menu'>
-            <Link className='menu-link' to="/about">About</Link>
-            <Link className='menu-link' to="/myServices">Services</Link>
-            <Link className='menu-link' to="/contact">Contact</Link>
+          <div className='nav__links'>
+            <Link className='nav__link' to="/about">About</Link>
+            <Link className='nav__link' to="/myServices">Services</Link>
+            <Link className='nav__link' to="/contact">Contact</Link>
           </div>
         </motion.div>
       

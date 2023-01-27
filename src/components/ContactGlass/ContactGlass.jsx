@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt';
 
 const ContactGlass = () => {
   return (
-    <div className='inner-contact-container'>
+    <div className='tilt-contact-container'>
       <Tilt 
         tiltReverse={true} 
         glareEnable={true}
@@ -15,7 +15,7 @@ const ContactGlass = () => {
         glareColor="#ffffff" 
         glarePosition="top" 
         glareBorderRadius="15px">
-        <div className='contact-card'>
+        <div className='contact-card__container'>
           <div className='contact-card__header'>
             <h1 className='contact-card__title'>Hello</h1>
           </div>

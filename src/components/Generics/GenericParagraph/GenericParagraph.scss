@@ -1,0 +1,18 @@
+@use '/src/sass/abstracts/variables' as v;
+@use '/src/sass/layout/flex-boxes' as box;
+
+
+.generic-paragraph{
+    &__container{
+        width: 90%;
+        @include box.flex-column-left;
+    }
+
+    &__paragraph{
+        font-family: v.$paragraph-font;
+        font-size: 2em;
+        /* ajustar el peso de la fuente */
+        color: v.$text-color-light;
+        margin: 1em 0;
+    }
+}

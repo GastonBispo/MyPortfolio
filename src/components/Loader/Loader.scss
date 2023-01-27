@@ -1,32 +1,28 @@
-.loader-container-nude{
-  background-image: var(--bg-gradient);
+@use '/src/sass/layout/flex-boxes' as box;
+@use '/src/sass/abstracts/variables' as v;
+@use '/src/sass/abstracts/mechanics' as mech;
+@use '/src/sass/layout/main-container' as container;
+
+.loader__bg{
+  background-color: black;
+  height: 100vh;
   width: 100%;
-    height: 100%;
-    background-size: 400% 400%;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* padding: 3%; */
-    /* justify-content: space-between; */
-    backdrop-filter: blur(20px);
-    overflow: hidden;
-    position: absolute;
-    /* margin: 0 0 100vh 0; */
-    /* background-color: transparent; */
-    z-index: 500;
-    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 3.6);
-    animation: color 40s ease infinite;
 }
 
-@keyframes color {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+.loader{
+  &__container{
+    @include container.main-container;
+    @include mech.gradient-animation;
+    @include box.flex-column-center;
+    background-image: v.$bg-gradient;
+  
+  }
+  &__div{
+    font-family: v.$secondary-font;
+    color: v.$secondary-color;
+    font-size: 4em;
+    font-weight: bold;
+  }
 }
 
 

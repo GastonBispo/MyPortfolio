@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const SocialIcons = () => {
   return (
-    <div className='social-icons'>
+    <div className='social-icons__container'>
         <a className='social-icons__item' href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'>
             <FaFacebook size={32} />
         </a>

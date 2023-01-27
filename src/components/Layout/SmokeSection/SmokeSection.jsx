@@ -1,13 +1,13 @@
 import React from 'react';
-import './LeftSide.scss';
+import './SmokeSection.scss';
 import { aparicionBlur } from '../../Generics/VariantsFramer/AparicionBlur';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const LeftSide = (props) => {
+const SmokeSection = (props) => {
   return (
     <AnimatePresence>
       <motion.div 
-        className='left-side__container'
+        className='smoke-section__container'
         variants={aparicionBlur}
         initial='hidden'
         animate='visible'
@@ -18,4 +18,4 @@ const LeftSide = (props) => {
   )
 }
 
-export default LeftSide
+export default SmokeSection

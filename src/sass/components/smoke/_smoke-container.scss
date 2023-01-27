@@ -4,7 +4,6 @@
 @mixin smoke-container{
     @include box.flex-column-center;
     width: 55%;
-    min-height: 100vh;
-    // background-color: rgb(255, 255, 212);
-    position: absolute;
+    min-height: 100%;
+    position: relative;
 }

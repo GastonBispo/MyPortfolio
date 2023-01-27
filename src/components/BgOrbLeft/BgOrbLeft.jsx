@@ -3,7 +3,7 @@ import './BgOrbLeft.scss';
 import { aparicionOrb } from '../Generics/VariantsFramer/AparicionOrb';
 import { motion , AnimatePresence } from 'framer-motion';
 
-const BgOrb = () => {
+const BgOrbLeft = () => {
   return (
     <AnimatePresence>
       <motion.div className='orb-left'
@@ -16,4 +16,4 @@ const BgOrb = () => {
   )
 }
 
-export default BgOrb
+export default BgOrbLeft

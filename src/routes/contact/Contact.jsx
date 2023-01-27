@@ -1,12 +1,12 @@
 import React from 'react';
 import BgObscure from '../../components/BgObscure/BgObscure';
-import ContactGlass from '../../components/Contact/ContactGlass';
-import HeaderAndButton from '../../components/Generics/GenericHeader/Header&Button';
+import ContactGlass from '../../components/ContactGlass/ContactGlass';
 import {Helmet} from 'react-helmet-async';
 import Footer from '../../components/footer/Footer';
 import BgOrbLeft from '../../components/BgOrbLeft/BgOrbLeft';
 import GenericSubtitle from '../../components/Generics/GenericSubtitle/GenericSubtitle';
-import RightSide from '../../components/Layout/Right-side/RightSide';
+import GenericHeader from '../../components/Generics/GenericHeader/GenericHeader';
+import SmokeSection from '../../components/Layout/SmokeSection/SmokeSection';
 
 const Contact = () => {
   return (
@@ -17,11 +17,11 @@ const Contact = () => {
     </Helmet>
       <BgObscure>
         <BgOrbLeft/>
-          <RightSide>
-            <HeaderAndButton headerText='Contact'/>
-            <GenericSubtitle subtitleText="djjd uicn nsjud jgiej huw uer"/>
-          </RightSide>
         <ContactGlass/>
+          <SmokeSection>
+            <GenericHeader headerText='Contact'/>
+            <GenericSubtitle subtitleText="djjd uicn nsjud jgiej huw uer"/>
+          </SmokeSection>
       </BgObscure>
       <Footer/>
     </>

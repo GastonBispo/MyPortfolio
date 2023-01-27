@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header&Button.scss';
+import './GenericHeader.scss';
 import GoBackButton from '../GoBackButton/GoBackButton';
 
 
-const HeaderAndButton = (props) => {
+const GenericHeader = (props) => {
   return (
     <div className='generic-header__container'>
         <h1 className='generic-header__header'>{props.headerText}</h1>
@@ -12,4 +12,4 @@ const HeaderAndButton = (props) => {
   )
 }
 
-export default HeaderAndButton
+export default GenericHeader

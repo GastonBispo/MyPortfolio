@@ -12,7 +12,7 @@ const NameDescription = () => {
           variants={aparicionIzquierda}
           initial='hidden'
           animate='visible'        
-        >
+          >
           <Tilt
             // tiltAngleYInitial={15} 
             tiltReverse={true} 
@@ -22,10 +22,10 @@ const NameDescription = () => {
             glarePosition="top" 
             glareBorderRadius="15px">
             <div className='name-description__container'>
-              <div className='name'>
+              <div className='name-description__name'>
                 <h1>NUNES BISPO</h1>
               </div>
-              <div className='description'>
+              <div className='name-description__description'>
                 <p>PRIVATE SECURITY ADVISOR </p>
                 <p>WEB DEVELOPER</p>
               </div>

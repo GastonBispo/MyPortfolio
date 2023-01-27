@@ -7,7 +7,7 @@ import { motion , AnimatePresence } from 'framer-motion';
 
 const ProfileCard = () => {
   return (
-  <div className='inner-profile__container'>
+  <div className='tilt-profile-container'>
     <Tilt 
         tiltReverse={true} 
         glareEnable={true}
@@ -17,7 +17,7 @@ const ProfileCard = () => {
         glarePosition="top" 
         glareBorderRadius="15px">
           <AnimatePresence>
-            <motion.div class="profile-card"
+            <motion.div class="profile-card__container"
               variants={aparicionDerecha}
               initial='hidden'
               animate='visible'

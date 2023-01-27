@@ -1,0 +1,26 @@
+@use '/src/sass/components/mirror/mirror-effect' as effect;
+@use '/src/sass/layout/flex-boxes' as box;
+@use '/src/sass/components/mirror/mirror-container' as container;
+
+.tilt-contact-container{
+    @include container.mirror-container;
+    position: relative;
+    top: 0;
+    left: 3%;
+}
+
+
+.contact-card{
+    &__container{
+        @include box.flex-column-center;
+        @include effect.mirror-effect;
+        margin-top: 2em;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+        &__header{
+            background-color: blanchedalmond;
+        }
+    }
+    
+}
