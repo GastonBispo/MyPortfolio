@@ -12,6 +12,7 @@ const Nav = () => {
         variants={aparicionBlur}
         initial='hidden'
         animate='visible'
+        transition={{ duration: 0.8 }} 
         >
           <div className='nav__links'>
             <Link className='nav__link' to="/about">About</Link>

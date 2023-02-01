@@ -4,10 +4,12 @@
 body::-webkit-scrollbar{
     width: 12px;
     background: v.$secondary-color;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar-thumb{
     background: v.$scrollbar-gradient;
     border-radius: 5px;
+    scroll-behavior: smooth;
 }
 

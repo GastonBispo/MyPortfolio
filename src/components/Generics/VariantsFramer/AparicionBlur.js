@@ -4,7 +4,5 @@ export const aparicionBlur = {
     },
     visible:{
       opacity: 1,
-      duration: 4,
-      ease: "easeInOut",
     },
   }

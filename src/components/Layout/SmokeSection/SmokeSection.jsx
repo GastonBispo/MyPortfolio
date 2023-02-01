@@ -11,6 +11,7 @@ const SmokeSection = (props) => {
         variants={aparicionBlur}
         initial='hidden'
         animate='visible'
+        transition={{ duration: 0.8 }}
         >
         {props.children}
       </motion.div>

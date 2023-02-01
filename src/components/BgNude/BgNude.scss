@@ -9,7 +9,6 @@
     @include mech.gradient-animation;
     @include box.flex-row-between;
     background-image: v.$bg-gradient;
-
   }
 
   @media screen and (max-width: 779px) {

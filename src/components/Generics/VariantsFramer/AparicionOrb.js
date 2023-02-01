@@ -1,4 +1,4 @@
-export const aparicionOrb = {
+export const AparicionOrb = {
     hidden:{
       opacity: 0,
     },

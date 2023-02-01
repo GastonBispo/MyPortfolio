@@ -17,6 +17,9 @@
         color: v.$text-color-light;
         margin: auto;
         /* background-color: coral; */
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
 

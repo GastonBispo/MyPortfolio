@@ -2,7 +2,7 @@ import React from 'react';
 import './ProfileCard.scss';
 import ProfilePic from '../../assets/img/Nunes Bispo Pic.jpg';
 import Tilt from 'react-parallax-tilt';
-import { aparicionDerecha } from '../Generics/VariantsFramer/aparicionDerecha';
+import { AparicionDerecha } from '../Generics/VariantsFramer/AparicionDerecha';
 import { motion , AnimatePresence } from 'framer-motion';
 
 const ProfileCard = () => {
@@ -18,7 +18,7 @@ const ProfileCard = () => {
         glareBorderRadius="15px">
           <AnimatePresence>
             <motion.div class="profile-card__container"
-              variants={aparicionDerecha}
+              variants={AparicionDerecha}
               initial='hidden'
               animate='visible'
               >

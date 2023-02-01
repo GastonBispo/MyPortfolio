@@ -1,0 +1,20 @@
+@use '/src/sass/abstracts/variables' as v;
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    font-size: 2em;
+    color: v.$text-color-light;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-to-top-button:hover {
+    transform: scale(1.2);
+  }
+  
