@@ -7,45 +7,61 @@
 .inner-description__container{
   @include container.mirror-container;
   margin-left: 3%;
+  background-color: aliceblue
 }
 
-.name-description{
+.card{
   &__container{
-    @include box.flex-column-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    // text-align: center;
     @include effect.mirror-effect;
     margin-top: 45vh;
+    padding: 0 13%;
     height: 33vh;
     width: 100%;
     overflow: hidden;
+    background-color: bisque;
   }
 
   &__name {
-    // background-color: aquamarine;
+    background-color: aquamarine;
     margin-top: 1em;
-    // width: 100%;
-    & > h1{
-      font-size: 3.5em;
-      font-family: v.$primary-font;
-      letter-spacing: 2px;
-      color: v.$secondary-color;
-      font-weight: bold;
-      margin: 0;
-    }
+    width: 100%;
+    font-family: v.$primary-font;
+    color: v.$secondary-color;
   }
+  &__h1{
+    font-size: 3em;
+    font-weight: 600;
+    margin: 0;
+    // letter-spacing: 2px;
+  }
+  &__h2{
+    font-size: 1.7em;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: end;
+  }
+
 
   &__description {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: right;
     margin-bottom: 1em;
+    font-family: v.$paragraph-font;
     color: v.$secondary-color;
-    
-    & > p{
-      font-family: v.$paragraph-font;
-      font-size: 1.2em;
-      font-weight: 600;
-    }
+  }
+
+  &__p{
+
+    font-size: 1.2em;
+    font-weight: 500;
   }
 
 }

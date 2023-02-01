@@ -22,13 +22,13 @@ const NameDescription = () => {
             glareColor="#ffffff" 
             glarePosition="top" 
             glareBorderRadius="15px">
-            <div className='name-description__container'>
-              <div className='name-description__name'>
-                <h1>NUNES BISPO</h1>
+            <div className='card__container'>
+              <div className='card__name'>
+                <h1 className='card__h1'>NUNES BISPO</h1>
+                <h2 className='card__h2'>CARLOS GASTON</h2>
               </div>
-              <div className='name-description__description'>
-                <p>PRIVATE SECURITY ADVISOR </p>
-                <p>WEB DEVELOPER</p>
+              <div className='card__description'>
+                <p className='card__p'>PROFESSIONAL</p>
               </div>
             </div>
           </Tilt>
