@@ -1,6 +1,6 @@
 export const AparicionDerecha = {
     hidden:{
-      x: '50%',
+      x: '70%',
     },
     visible:{
       x: 0,

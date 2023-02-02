@@ -20,7 +20,6 @@ const Nav = () => {
             <Link className='nav__link' to="/contact">Contact</Link>
           </div>
         </motion.div>
-      
      </AnimatePresence>
 
     

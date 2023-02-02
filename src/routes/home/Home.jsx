@@ -11,8 +11,10 @@ const Home = () => {
   return (
     <>
       <Helmet>
-          <title> home titulo</title>
-          <meta name="description" content="palabras fundamentales orientadas a mi portfolio y nombre/marca personal"/>
+          <title> Home | Advisor - Developer </title>
+          <meta 
+          name="description" 
+          content="Web portfolio presentation of Carlos Gaston Nunes Bispo, private security advisor and developer. Here you will find consultancy and software development services"/>
       </Helmet>
       <AnimatePresence>
         <motion.div

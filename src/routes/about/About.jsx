@@ -16,15 +16,15 @@ const About = () => {
   return (
     <>
       <Helmet> 
-        <title> About me - Nunes Bispo</title>
+        <title> About | Advisor - Developer </title>
         <meta 
         name="description" 
-        content="Learn about my experience as a frontend developer and advisor in private security,
+        content="Learn about my experience as Private Security Advisor and Developer,
          including my skills and past projects on this page"/>
       </Helmet>
       <AnimatePresence>
         <motion.div
-        initial={{ y: '-33%' }}
+        initial={{ y: '13%' }}
         animate={{ y: 0 }}
         transition={{ duration: 0.4 }}>
           <BgObscure>

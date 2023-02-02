@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './NameDescription.scss';
 import Tilt from 'react-parallax-tilt';
 import { motion , AnimatePresence } from 'framer-motion';
 import { AparicionIzquierda } from '../Generics/VariantsFramer/AparicionIzquierda';
+import { GiGreatPyramid } from 'react-icons/gi';
 
 
 const NameDescription = () => {
+  const [date, setDate] = useState(new Date());
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setDate(new Date());
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <AnimatePresence>
         <motion.div className='inner-description__container'
@@ -27,8 +38,14 @@ const NameDescription = () => {
                 <h1 className='card__h1'>NUNES BISPO</h1>
                 <h2 className='card__h2'>CARLOS GASTON</h2>
               </div>
-              <div className='card__description'>
-                <p className='card__p'>PROFESSIONAL</p>
+              <div className='card__bottom-section'>
+                <div className='card__logo'>
+                  <GiGreatPyramid/>
+                </div>
+                <div className='card__description'>
+                  <p className='card__p'>PROFESSIONAL</p>
+                  <p className='card__date'>Since 2010 - {date.toLocaleDateString()}</p>
+                </div>
               </div>
             </div>
           </Tilt>

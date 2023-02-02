@@ -6,3 +6,10 @@
     position: relative;
     // background-color: darkgray;
 }
+
+@mixin card-container{
+    width: 35%;
+    height: 100vh;
+    position: relative;
+    // background-color: darkgray;
+}

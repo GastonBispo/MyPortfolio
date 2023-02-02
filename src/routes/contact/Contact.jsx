@@ -12,8 +12,10 @@ const Contact = () => {
   return (
     <> 
     <Helmet>
-        <title> contac titulo</title>
-        <meta name="description" content="palabras clave referentes a contact ver redes sociales"/>
+        <title> Contact | Advisor - Developer </title>
+        <meta 
+        name="description" 
+        content="Contact and networks of Carlos Gaston Nunes Bispo. Contact for advice on private security or software development"/>
     </Helmet>
       <BgObscure>
         <BgOrbLeft/>

@@ -21,6 +21,7 @@ const ProfileCard = () => {
               variants={AparicionDerecha}
               initial='hidden'
               animate='visible'
+              transition={{ duration: 0.4 }}
               >
               <img src={ProfilePic} alt='Profile img' class="profile-card__pic"></img>
               <div class="profile-card__info">
