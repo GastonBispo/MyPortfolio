@@ -31,14 +31,24 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     margin: 6px 0;
+    // background-color: v.$primary-shade;
+  }
+
+  &__surname{
+    font-family: v.$primary-font;
+    font-size: 3vw;
+    font-weight: 300;
+    color: v.$text-color-light;
+    margin: 3px 0;
   }
 
   &__name{
     font-family: v.$primary-font;
-    font-size: 3vw;
-    /* font-weight: bold; */
+    font-size: 2vw;
+    font-weight: 300;
     color: v.$text-color-light;
     margin: 3px 0;
   }

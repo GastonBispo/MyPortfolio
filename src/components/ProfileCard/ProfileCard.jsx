@@ -17,17 +17,18 @@ const ProfileCard = () => {
         glarePosition="top" 
         glareBorderRadius="15px">
           <AnimatePresence>
-            <motion.div class="profile-card__container"
+            <motion.div className="profile-card__container"
               variants={AparicionDerecha}
               initial='hidden'
               animate='visible'
               transition={{ duration: 0.4 }}
               >
-              <img src={ProfilePic} alt='Profile img' class="profile-card__pic"></img>
+              <img src={ProfilePic} alt='Profile img' className="profile-card__pic"></img>
               <div class="profile-card__info">
-                  <h1 class="profile-card__name">Carlos Gaston Nunes Bispo</h1>
-                  <p class="profile-card__occupations">Private Security Advisor - Web Developer</p>
-                  <p class="profile-card__nationality">Argentine</p>              
+                <h1 className="profile-card__surname">Nunes Bispo</h1>
+                <h2 className='profile-card__name'>Carlos Gaston</h2>
+                <p className="profile-card__occupations">Advisor - Developer</p>
+                <p className="profile-card__nationality">Bs. As. Argentina</p>              
               </div>
             </motion.div>
           </AnimatePresence>

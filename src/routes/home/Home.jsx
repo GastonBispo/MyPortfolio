@@ -14,7 +14,7 @@ const Home = () => {
           <title> Home | Advisor - Developer </title>
           <meta 
           name="description" 
-          content="Web portfolio presentation of Carlos Gaston Nunes Bispo, private security advisor and developer. Here you will find consultancy and software development services"/>
+          content="Web portfolio presentation of Carlos Gaston Nunes Bispo, private security advisor and developer. Here you will find Private Security Consultancy and Software Development Dervices"/>
       </Helmet>
       <AnimatePresence>
         <motion.div
@@ -30,7 +30,6 @@ const Home = () => {
       </AnimatePresence>
           <Footer />
     </>
-//creo que hay que poner las propiedades framer dentro se la etiqueta apertura de cada componente ya que esta dentro de animatepresence
   )
 }
 
