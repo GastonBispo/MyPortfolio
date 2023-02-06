@@ -1,4 +1,3 @@
-
 // abastracts
 @import '/src/sass/abstracts/mixins';
 @import '/src/sass/abstracts/variables';
@@ -7,12 +6,13 @@
 @import '/src/sass/base/base';
 @import '/src/sass/base/resets';
 @import '/src/sass/base/scrollbar';
-//layout
+// layout
 @import '/src/sass/layout/flex-boxes';
 @import '/src/sass/layout/main-container';
 @import '/src/sass/layout/generic-container';
 @import '/src/sass/layout/modificator';
-//components
+@import '/src/sass/layout/media-queries';
+// components
 @import '/src/sass/components/mirror/mirror-effect';
 @import '/src/sass/components/mirror/mirror-container';
 @import '/src/sass/components/smoke/smoke-container';

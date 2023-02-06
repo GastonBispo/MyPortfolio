@@ -1,0 +1,14 @@
+@use '/src/sass/abstracts/variables' as v;
+
+
+@mixin mobile{
+    @media screen and (min-width: v.$mobile-breakpoint) {
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media screen and (max-width: v.$tablet-breakpoint) {
+        @content;
+    }
+}
