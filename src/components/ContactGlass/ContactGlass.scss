@@ -1,3 +1,4 @@
+@use '/src/sass/layout/media-queries' as media;
 @use '/src/sass/components/mirror/mirror-effect' as effect;
 @use '/src/sass/layout/flex-boxes' as box;
 @use '/src/sass/components/mirror/mirror-container' as container;
@@ -7,6 +8,11 @@
     position: relative;
     top: 0;
     left: 3%;
+    @include media.tablet {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+      }
 }
 
 

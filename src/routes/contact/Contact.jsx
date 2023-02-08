@@ -6,6 +6,7 @@ import Footer from '../../components/footer/Footer';
 import BgOrbLeft from '../../components/BgOrbLeft/BgOrbLeft';
 import GenericSubtitle from '../../components/Generics/GenericSubtitle/GenericSubtitle';
 import GenericHeader from '../../components/Generics/GenericHeader/GenericHeader';
+import GenericParagraph from '../../components/Generics/GenericParagraph/GenericParagraph';
 import SmokeSection from '../../components/Layout/SmokeSection/SmokeSection';
 
 const Contact = () => {
@@ -20,10 +21,11 @@ const Contact = () => {
       <BgObscure>
         <BgOrbLeft/>
         <ContactGlass/>
-          <SmokeSection>
-            <GenericHeader headerText='Contact'/>
-            <GenericSubtitle subtitleText="djjd uicn nsjud jgiej huw uer"/>
-          </SmokeSection>
+        <SmokeSection>
+          <GenericHeader headerText='Contact'/>
+          <GenericSubtitle subtitleText="djjd uicn nsjud jgiej huw uer"/>
+          <GenericParagraph paragraphText="Puedes encontrarme en los siguientes links"/>
+        </SmokeSection>
       </BgObscure>
       <Footer/>
     </>

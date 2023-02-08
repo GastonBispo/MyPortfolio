@@ -1,3 +1,4 @@
+@use '/src/sass/layout/media-queries' as media;
 @use '/src/sass/components/smoke/smoke-container' as smoke;
 
 
@@ -5,5 +6,9 @@
     @include smoke.smoke-container;
     top: 0;
     padding: 2em 0;
+    @include media.tablet {
+        margin-top: 110vh;
+        width: 80%;
+      }
 }
 

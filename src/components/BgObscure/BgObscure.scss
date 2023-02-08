@@ -1,3 +1,4 @@
+@use '/src/sass/layout/media-queries' as media;
 @use '/src/sass/abstracts/variables' as v;
 @use '/src/sass/abstracts/mechanics' as mech;
 @use '/src/sass/layout/flex-boxes' as box;
@@ -9,13 +10,16 @@
     @include mech.gradient-animation;
     @include box.flex-row-between;
     background-image: v.$bg-obscure-gradient;
-  }
-
-
-  @media screen and (max-width: 991px){
-    .bg-obscure{
-        flex-direction: column;
+    @include media.tablet {
+      flex-direction: column;
     }
   }
+
+
+  // @media screen and (max-width: 991px){
+  //   .bg-obscure{
+  //       flex-direction: column;
+  //   }
+  // }
 
  

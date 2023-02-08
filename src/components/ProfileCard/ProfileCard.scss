@@ -1,3 +1,4 @@
+@use '/src/sass/layout/media-queries' as media;
 @use '/src/sass/abstracts/variables' as v;
 @use '/src/sass/layout/flex-boxes' as box;
 @use '/src/sass/components/mirror/mirror-container' as container;
@@ -7,8 +8,14 @@
 .tilt-profile-container{
   @include container.mirror-container;
   right: 3%;
-  align-self: flex-start
+  align-self: flex-start;
   // top: auto;
+  @include media.tablet {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 35%;
+  }
 }
 
 .profile-card{
